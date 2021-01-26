@@ -1,5 +1,7 @@
 module TwoSum ( twosum ) where
 
+-- https://leetcode.com/problems/two-sum/
+
 twosum :: [Integer] -> Integer -> (Int, Int)
 twosum [] _ = (-1, -1)
 twosum l target = head ([(x, y) | x <- r, y <- r, x < y && l !! x + l !! y == target])
