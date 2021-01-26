@@ -4,6 +4,7 @@ import FizzBuzz
 import TwoSum
 import RunningSum
 import SmallerNumbersThanCurrent
+import NumOfStepsToReduceNumToZero
 
 main :: IO ()
 main = do
@@ -17,3 +18,7 @@ main = do
   putStrLn "<-- Smaller Numbers Than Current -->"
   print $ smallerNumbersThanCurrent [8, 1, 2, 2, 3]
   print $ smallerNumbersThanCurrent [6, 5, 4, 8]
+  putStrLn "<-- Num Of Steps to Reduce Num To Zero -->"
+  print $ numOfStepsToReduceNumToZero 14
+  print $ numOfStepsToReduceNumToZero 8
+  print $ numOfStepsToReduceNumToZero 123
