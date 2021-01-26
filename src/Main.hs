@@ -16,3 +16,4 @@ main = do
   print $ runningsum [1,2,3,4]
   putStrLn "<-- Smaller Numbers Than Current -->"
   print $ smallerNumbersThanCurrent [8, 1, 2, 2, 3]
+  print $ smallerNumbersThanCurrent [6, 5, 4, 8]
