@@ -7,3 +7,4 @@
 * [Running Sum of 1d Array](https://leetcode.com/problems/running-sum-of-1d-array/)
 * [FizzBuzz](https://leetcode.com/problems/fizz-buzz/)
 * [Smaller Numbers Then Current](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
+* [Number Of Steps To Reach Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
