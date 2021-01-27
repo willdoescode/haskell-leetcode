@@ -6,6 +6,7 @@ import RunningSum
 import SmallerNumbersThanCurrent
 import NumOfStepsToReduceNumToZero
 import TargetArrayInGivenOrder
+import SortArrayByParity
 
 main :: IO ()
 main = do
@@ -26,3 +27,6 @@ main = do
   putStrLn "<-- Target Array In Given Order -->"
   print $ targetArrayInGivenOrder [0, 1, 2, 3, 4] [0, 1, 2, 2, 1]
   print $ targetArrayInGivenOrder [1, 2, 3, 4, 0] [0, 1, 2, 3, 0]
+  putStrLn "<-- Sort Array By Parity -->"
+  print $ sortArrayByParity [3, 1, 2, 4]
+  print $ sortArrayByParity [1, 2, 3, 4]
