@@ -12,4 +12,3 @@ toLowerCase = map (\c
     
   where lower = ['a'..'z']
         upper = ['A'..'Z']
-
