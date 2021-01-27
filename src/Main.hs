@@ -7,6 +7,7 @@ import SmallerNumbersThanCurrent
 import NumOfStepsToReduceNumToZero
 import TargetArrayInGivenOrder
 import SortArrayByParity
+import ToLowerCase
 
 main :: IO ()
 main = do
@@ -30,3 +31,6 @@ main = do
   putStrLn "<-- Sort Array By Parity -->"
   print $ sortArrayByParity [3, 1, 2, 4]
   print $ sortArrayByParity [1, 2, 3, 4]
+  putStrLn "<-- To Lower Case -->"
+  print $ toLowerCase "Hello"
+  print $ toLowerCase "LOVELY"

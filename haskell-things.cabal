@@ -25,3 +25,4 @@ executable haskell-things
                        , NumOfStepsToReduceNumToZero
                        , TargetArrayInGivenOrder
                        , SortArrayByParity
+                       , ToLowerCase
