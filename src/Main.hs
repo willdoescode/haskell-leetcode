@@ -32,5 +32,5 @@ main = do
   print $ sortArrayByParity [3, 1, 2, 4]
   print $ sortArrayByParity [1, 2, 3, 4]
   putStrLn "<-- To Lower Case -->"
-  print $ toLowerCase "Hello"
-  print $ toLowerCase "LOVELY"
+  putStrLn $ toLowerCase "Hello"
+  putStrLn $ toLowerCase "LOVELY"
