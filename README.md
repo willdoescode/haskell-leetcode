@@ -10,3 +10,4 @@
 * [Number Of Steps To Reach Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
 * [Create Target Array In Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)
 * [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)
+* [To Lower Case](https://leetcode.com/problems/to-lower-case/)
