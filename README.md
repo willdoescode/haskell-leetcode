@@ -8,3 +8,4 @@
 * [FizzBuzz](https://leetcode.com/problems/fizz-buzz/)
 * [Smaller Numbers Then Current](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
 * [Number Of Steps To Reach Zero](https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/)
+* [Create Target Array In Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)

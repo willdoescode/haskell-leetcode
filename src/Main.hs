@@ -5,6 +5,7 @@ import TwoSum
 import RunningSum
 import SmallerNumbersThanCurrent
 import NumOfStepsToReduceNumToZero
+import TargetArrayInGivenOrder
 
 main :: IO ()
 main = do
@@ -22,3 +23,6 @@ main = do
   print $ numOfStepsToReduceNumToZero 14
   print $ numOfStepsToReduceNumToZero 8
   print $ numOfStepsToReduceNumToZero 123
+  putStrLn "<-- Target Array In Given Order -->"
+  print $ targetArrayInGivenOrder [0, 1, 2, 3, 4] [0, 1, 2, 2, 1]
+  print $ targetArrayInGivenOrder [1, 2, 3, 4, 0] [0, 1, 2, 3, 0]

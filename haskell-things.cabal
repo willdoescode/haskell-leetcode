@@ -18,4 +18,9 @@ executable haskell-things
   main-is:             Main.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5, containers
-  other-modules:       TwoSum, FizzBuzz, RunningSum, SmallerNumbersThanCurrent, NumOfStepsToReduceNumToZero
+  other-modules:       TwoSum
+                       , FizzBuzz
+                       , RunningSum
+                       , SmallerNumbersThanCurrent
+                       , NumOfStepsToReduceNumToZero
+                       , TargetArrayInGivenOrder
