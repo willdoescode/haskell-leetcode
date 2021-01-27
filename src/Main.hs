@@ -17,7 +17,7 @@ main = do
   print $ twosum [4, 5, 2, 5] 7
   putStrLn "<-- Running Sum -->"
   print $ runningsum [1, 1, 1, 1, 1]
-  print $ runningsum [1,2,3,4]
+  print $ runningsum [1, 2, 3, 4]
   putStrLn "<-- Smaller Numbers Than Current -->"
   print $ smallerNumbersThanCurrent [8, 1, 2, 2, 3]
   print $ smallerNumbersThanCurrent [6, 5, 4, 8]
