@@ -26,3 +26,4 @@ executable haskell-things
                        , TargetArrayInGivenOrder
                        , SortArrayByParity
                        , ToLowerCase
+                       , MinimumIndexSumofTwoLists

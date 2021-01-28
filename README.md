@@ -13,6 +13,7 @@
 * [Create Target Array In Given Order](https://leetcode.com/problems/create-target-array-in-the-given-order/)
 * [Sort Array By Parity](https://leetcode.com/problems/sort-array-by-parity/)
 * [To Lower Case](https://leetcode.com/problems/to-lower-case/)
+* [Minimum Index Sum Of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/)
 
 #### Medium
 

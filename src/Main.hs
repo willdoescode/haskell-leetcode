@@ -8,6 +8,7 @@ import NumOfStepsToReduceNumToZero
 import TargetArrayInGivenOrder
 import SortArrayByParity
 import ToLowerCase
+import MinimumIndexSumofTwoLists
 
 main :: IO ()
 main = do
@@ -34,3 +35,13 @@ main = do
   putStrLn "<-- To Lower Case -->"
   putStrLn $ toLowerCase "Hello"
   putStrLn $ toLowerCase "LOVELY"
+  putStrLn "<-- Minimum Index Sum of Two Lists -->"
+  print $ minimumIndexSumofTwoLists ["Shogun","Tapioca Express","Burger King","KFC"]
+   ["Piatti","The Grill at Torrey Pines","Hungry Hunter Steakhouse","Shogun"]
+  print $ minimumIndexSumofTwoLists ["Shogun","Tapioca Express","Burger King","KFC"]
+    ["KFC","Shogun","Burger King"]
+  print $ minimumIndexSumofTwoLists ["Shogun","Tapioca Express","Burger King","KFC"]
+    ["KFC","Burger King","Tapioca Express","Shogun"]
+  print $ minimumIndexSumofTwoLists ["Shogun","Tapioca Express","Burger King","KFC"]
+    ["KNN","KFC","Burger King","Tapioca Express","Shogun"]
+
