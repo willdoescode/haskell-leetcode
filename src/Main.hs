@@ -13,7 +13,7 @@ import MinimumIndexSumofTwoLists
 main :: IO ()
 main = do
   putStrLn "<-- FizzBuzz -->"
-  print $ fizzbuzz [1..100]
+  putStrLn $ unlines $ fizzbuzz [1..100]
   putStrLn "<-- TwoSum -->"
   print $ twosum [4, 5, 2, 5] 7
   putStrLn "<-- Running Sum -->"
