@@ -55,4 +55,5 @@ main = do
 
   putStrLn "<-- Sort List -->"
   print $ sortList ([9, 3, 4, 1] :: [Int]) -- cast types for no ide warning
+  print $ (sortList . reverse . take 10) ([0..] :: [Int]) -- cast types for no ide warning
   print $ sortList ['c', 'a', 'f', 'y']
