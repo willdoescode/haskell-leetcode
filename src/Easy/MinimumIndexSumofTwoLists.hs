@@ -5,7 +5,7 @@ module MinimumIndexSumofTwoLists ( minimumIndexSumofTwoLists ) where
 import Data.List
 
 minimumIndexSumofTwoLists :: [String] -> [String] -> [String]
-minimumIndexSumofTwoLists f s = filter (\n -> n /= "") (map (\x -> do
+minimumIndexSumofTwoLists f s = filter (/= "") (map (\x -> do
                                       case elemIndex x s of
                                         Just n -> s !! n
                                         Nothing -> []
