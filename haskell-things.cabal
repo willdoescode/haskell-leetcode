@@ -14,7 +14,9 @@ cabal-version:       >=1.10
 extra-source-files:  README.md
 
 executable haskell-things
-  hs-source-dirs:      src, src/Easy
+  hs-source-dirs:      src
+                       , src/Easy
+                       , src/Medium
   main-is:             Main.hs
   default-language:    Haskell2010
   build-depends:       base >= 4.7 && < 5, containers
@@ -27,3 +29,4 @@ executable haskell-things
                        , SortArrayByParity
                        , ToLowerCase
                        , MinimumIndexSumofTwoLists
+                       , SortList
