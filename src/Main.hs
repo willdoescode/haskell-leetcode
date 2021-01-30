@@ -54,5 +54,5 @@ main = do
     ["KNN","KFC","Burger King","Tapioca Express","Shogun"]
 
   putStrLn "<-- Sort List -->"
-  print $ sortList [9, 3, 4, 1]
+  print $ sortList ([9, 3, 4, 1] :: [Int]) -- cast types for no ide warning
   print $ sortList ['c', 'a', 'f', 'y']
