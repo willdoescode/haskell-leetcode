@@ -18,5 +18,6 @@
 #### Medium
 
 * Sort List
+* [Magic Square](https://www.hackerrank.com/challenges/magic-square-forming/problem?h_r=internal-search)
 
 #### Hard

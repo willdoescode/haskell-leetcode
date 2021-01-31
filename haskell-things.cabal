@@ -30,3 +30,4 @@ executable haskell-things
                        , ToLowerCase
                        , MinimumIndexSumofTwoLists
                        , SortList
+                       , MagicSquare

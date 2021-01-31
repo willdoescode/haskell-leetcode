@@ -12,9 +12,10 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="base-4.13.0.0" level="project" />
     <orderEntry type="library" name="ghc-prim-0.5.3" level="project" />
-    <orderEntry type="library" name="integer-gmp-1.0.2.0" level="project" />
     <orderEntry type="library" name="containers-0.6.2.1" level="project" />
     <orderEntry type="library" name="array-0.5.4.0" level="project" />
     <orderEntry type="library" name="deepseq-1.4.4.0" level="project" />
+    <orderEntry type="library" name="base-4.14.1.0" level="project" />
+    <orderEntry type="library" name="integer-gmp-1.0.3.0" level="project" />
   </component>
 </module>

@@ -10,6 +10,7 @@ import SortArrayByParity
 import ToLowerCase
 import MinimumIndexSumofTwoLists
 import SortList
+import MagicSquare
 
 main :: IO ()
 main = do
@@ -57,3 +58,11 @@ main = do
   print $ sortList ([9, 3, 4, 1] :: [Int]) -- cast types for no ide warning
   print $ (sortList . reverse . take 10) ([0..] :: [Int]) -- cast types for no ide warning
   print $ sortList ['c', 'a', 'f', 'y']
+
+  putStrLn "<-- Magic Square -->"
+  print $ magicSquare [ [4, 9, 2]
+                      , [3, 5, 7]
+                      , [8, 1, 5] ]
+  print $ magicSquare [ [4, 8, 2]
+                      , [4, 5, 7]
+                      , [6, 1, 6] ]
